@@ -9,59 +9,6 @@
       "id": "1"
     },
     {
-      "firstname": "User1",
-      "lastname": "user1@gmail.com",
-      "age": 23,
-      "gender": "woman",
-      "bloodgroup": "A",
-      "id": "2"
-    },
-    {
-      "firstname": "User1",
-      "lastname": "user1@gmail.com",
-      "age": 23,
-      "gender": "man",
-      "bloodgroup": "A",
-      "id": "3"
-    },
-    {
-      "username": "User3",
-      "email": "user3@gmail.com",
-      "channel": "User cahnnel",
-      "likes": 1,
-      "id": "4"
-    },
-    {
-      "id": "2559",
-      "username": "User1",
-      "email": "user1@gmail.com",
-      "channel": "Userchannel",
-      "likes": 23
-    },
-    {
-      "id": "88db",
-      "username": "User1",
-      "email": "user1@gmail.com",
-      "channel": "Userchannel",
-      "likes": 23
-    },
-    {
-      "id": "427e",
-      "firstname": "Audrius",
-      "lastname": "Adomavičius",
-      "gender": "man",
-      "bloodgroup": "A",
-      "age": "-7"
-    },
-    {
-      "id": "a315",
-      "firstname": "Audrius",
-      "lastname": "Adomavičius",
-      "gender": "man",
-      "bloodgroup": "A",
-      "age": "-7"
-    },
-    {
       "id": "573a",
       "firstname": "Audrius",
       "lastname": "Adomavičius",
@@ -70,29 +17,12 @@
       "age": "-7"
     },
     {
-      "id": "1403",
-      "firstname": "Audrius",
-      "lastname": "Adomavičius",
-      "gender": "woman",
-      "bloodgroup": "A",
-      "age": "-6000"
-    },
-    {
       "id": "4287",
       "firstname": "Audrius",
       "lastname": "Adomavičius",
       "gender": "woman",
       "bloodgroup": "B",
       "age": "2200"
-    },
-    {
-      "id": "9447",
-      "firstname": "Audrius",
-      "lastname": "Adomavičius",
-      "gender": "man",
-      "bloodgroup": "a2",
-      "age": "100",
-      "likes": 0
     },
     {
       "id": "b7e7",
@@ -120,20 +50,20 @@
       "age": "00000000"
     },
     {
-      "id": "f7b4",
-      "firstname": "Audrius",
-      "lastname": "A",
-      "gender": "man",
-      "bloodgroup": "kkkkkkk",
-      "age": "33333333"
+      "id": "bee0",
+      "firstname": "Teresė",
+      "lastname": "Adomavičiūtė",
+      "gender": "woman",
+      "bloodgroup": "B",
+      "age": "16"
     },
     {
-      "id": "f959",
-      "firstname": "Audrius",
-      "lastname": "A",
+      "id": "efb0",
+      "firstname": "Teresė",
+      "lastname": "Adomavičiūtė",
       "gender": "woman",
-      "bloodgroup": "b1",
-      "age": "4"
+      "bloodgroup": "C",
+      "age": "55"
     }
   ]
 }

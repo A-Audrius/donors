@@ -6,29 +6,31 @@ import { NavLink, Link } from "react-router";
 function Homepage() {
   return (
     <>
-      <nav >
-        <NavLink className="ml-20" to="/registrationForm">to registration Form</NavLink>
-        <NavLink className="ml-5" to="/List">to donors list</NavLink>
+      <nav className="text-right">
+        <NavLink className="ml-20" to="/registrationForm">
+          to registration Form
+        </NavLink>
+        <NavLink className="ml-5" to="/List">
+          to donors list
+        </NavLink>
       </nav>
 
-      <section>
-        <h2 className="text-3xl text-red-500  font-bold underline px-auto">
+      <section className="section-hp text-center">
+        <h2 className="hash2 text-3xl text-red-500  font-bold underline pb-5">
           Tapk kraujo donoru!
         </h2>
 
-        <div className="">
+        <div className="pb-5">
           <img className="mx-auto " src={bloodLogo} alt="" />
         </div>
 
         <Link to="/registrationForm">
           {" "}
-
-          <button className="btn bg-green-500 btn-neutral mx-auto">
+          <button  className="btn bg-red-200  text-gray-800">
             Spausk
           </button>
         </Link>
       </section>
-
     </>
   );
 }

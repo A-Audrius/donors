@@ -24,11 +24,15 @@ function RegistrationForm({ setUpdate }) {
 
   return (
     <>
-      <NavLink to="/">Back to Homepage</NavLink>
+    <section className="text-center">
 
-      <h1 className="text-3xl mx-auto">Registration Form</h1>
+      <NavLink className="text-blue-300"  to="/">Back to Homepage</NavLink> <br />
+      <NavLink to="/List">to donors list</NavLink>
 
-      <form onSubmit={handleSubmit(formSubmitHandler)} noValidate>
+      <h1 className="text-3xl text-center">Registration Form</h1>
+
+      <form className="text-center" onSubmit={handleSubmit(formSubmitHandler)} noValidate>
+        {/* firstname */}
         <div className="p-3">
           <label htmlFor="firstname">Name:</label>
           <input
@@ -40,7 +44,7 @@ function RegistrationForm({ setUpdate }) {
           />
           <div className="error">{errors.firstname?.message}</div>
         </div>
-
+              {/* lastname */}
         <div className="p-3">
           <label htmlFor="lastname">Lastname:</label>
           <input
@@ -52,19 +56,18 @@ function RegistrationForm({ setUpdate }) {
           />
           <div className="error">{errors.Lastname?.message}</div>
         </div>
-
+            {/* category */}
         <section className="p-2">
           <select
             {...register("gender", { required: "Category is required" })}
             className="select select-bordered"
-            id="category"
-          >
+            id="category">
             <option value="man">man</option>
             <option value="woman">woman</option>
           </select>
           <p className="text-error">{errors.category?.message}</p>
         </section>
-
+            {/* bloodgroup */}
         <div className="p-3">
           <label htmlFor="">
             blood group:
@@ -78,21 +81,23 @@ function RegistrationForm({ setUpdate }) {
           </label>
           <div className="error">{errors.bloodgroup?.message}</div>
         </div>
-
+              {/* age */}
         <div className="p-3">
           <label htmlFor="channel">Age:</label>
           <input type="number" id="channel" {...register("age")} />
         </div>
+              {/* submit */}
         <div className="p-3">
           <input
             type="submit"
-            value="Submit"
-            className="btn bg-green-500 btn-neutral p-3"
+            value="pateikti"
+            className="btn btn-neutral bg-green-300 text-gray-800 p-3"
           />
         </div>
       </form>
 
       {error && <p className="text-red-700">{error}</p>}
+      </section>
     </>
   );
 }
